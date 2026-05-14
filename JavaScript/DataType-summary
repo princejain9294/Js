@@ -1,0 +1,29 @@
+// Primitive (call by value) : string , number , boolean  , null , undefined , symbol , bigint; 
+
+
+
+const score = 100
+const scoreValue = 100.3
+
+const loggedIn = false
+const temp = null
+let userEmail;
+
+const id = Symbol('123')
+const another_id = Symbol('123')
+console.log(id === another_id);
+
+const bigNum = 123456789012345678n
+
+// Non - Primitive (call by refrence) : Arrays , objects , function ;
+
+const heros = ["FGH" , "DFGH" ,"TGUH"];
+let myData = {
+    name : "Prince",
+    age = 19
+}
+
+const myFUn = function() {
+    console.log("Hello");
+    
+}
