@@ -54,6 +54,13 @@ let negValue = -value
 // console.log(++gameCounter);
 
 
+//--------------------------------------------------------------------
+// Stack , Heap
+// Stack : Primitive , Heap : Non primitive(reference)
+
+// if assign the value of primitive to another one it does'n change each other
+// but in refrence it can for ex : obj. in oops
+
 
 
 
